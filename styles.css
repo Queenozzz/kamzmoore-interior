@@ -1073,94 +1073,42 @@ footer .logo a{
 }
 
 @media(max-width: 400px) {
+    
+    figure {
+        animation: none;
+        width: 100%;
+    }
+
+    .lazy-background{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .lazy-background.img1 {
+        background-image: url(./asset/imgs/IMG_E4282.jpg);
+    }
+        
+    .lazy-background.img1.visible {
+        background-image: url(./assets/imgs/IMG_E4282\ small.jpg);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .lazy-background.img2.hero,
+    .lazy-backgroundg.img3.hero,
+    .lazy-background.img4.hero, 
     .lazy-background.img2,
-        .lazy-background.img1 {
-            width: 50%;
-            height: 100%;
+    .lazy-backgroundg.img3,
+    .lazy-background.img4 ,
+    .lazy-background.img2.visible,
+    .lazy-background.img3.visible,
+    .lazy-background.img4.visible {
+        display: none;
+    }
+    
 
-        }
-
-
-        .lazy-background.img1 {
-            background-image: url(./asset/imgs/IMG_E4282.jpg);
-        }
-        
-        .lazy-background.img2 {
-            background-image: url(./asset/imgs/IMG_E4318.jpg);
-        }
-        
-        .lazy-background.img1.visible {
-            background-image: url(./assets/imgs/IMG_E4282\ small.jpg);
-        }
-        
-        .lazy-background.img2.visible {
-            background-image: url(./assets/imgs/IMG_E4318\ small.jpg);
-        }
-    
-        .lazy-backgroundg.img3,
-        .lazy-background.img4 {
-            display: none;
-        }
-    
-        .lazy-background.img3.visible,
-        .lazy-background.img4.visible {
-           display: none;
-        }
-    
-        @keyframes slide {
-            0% {
-                left: 0;
-            }
-    
-            20% {
-                left: 0;
-            }
-    
-            25% {
-                left: -50%;
-            }
-    
-            30% {
-                left: -50%;
-            }
-    
-            40% {
-                left: -100%;
-            }
-    
-            50% {
-                left: -100%;
-            }
-    
-            60% {
-                left: -100%;
-            }
-    
-            70% {
-                left: -100%;
-            }
-    
-            80% {
-                left: -50%;
-            }
-    
-            90% {
-                left: -50%;
-            }
-    
-            95% {
-                left: 0%;
-            }
-    
-            100% {
-                left: 0%;
-            }
-    
-            
-    
-        }
-    
-    
     .logo {
         padding-left: 5px;
         font-size: 1rem;
@@ -1174,24 +1122,20 @@ footer .logo a{
     .logo h5 {
         font-weight: 500;
         padding-left: 70px;
-    }
-    main{
-        width: 100%;
-        height: 100vh;
-    }
+    }  
     
     .moto {
-        padding-left: 120px;
+        padding-left: 0px;
     }
     
     .mott {
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
     .motto,
     .moto,
     .mott {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .section-title{
@@ -1263,6 +1207,6 @@ footer .logo a{
 
     .footer-bar ul li a {
         padding: 2px;
-    }
+    }    
     
 }
