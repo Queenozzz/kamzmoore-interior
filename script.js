@@ -1,3 +1,41 @@
+//---lazy image loading ---
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyBackgrounds = [].slice.call(document.querySelectorAll(".lazy-background"));
+
+  if ("IntersectionObserver" in window) {
+    let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          lazyBackgroundObserver.unobserve(entry.target);
+        }
+      });
+    });
+
+    lazyBackgrounds.forEach(function(lazyBackground) {
+      lazyBackgroundObserver.observe(lazyBackground);
+    });
+  }
+
+  var cards = [].slice.call(document.querySelectorAll(".card"));
+
+  if ("IntersectionObserver" in window) {
+    let cardObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          cardObserver.unobserve(entry.target);
+        }
+      });
+    });
+
+    cards.forEach(function(card) {
+        cardObserver.observe(card);
+    });
+  }
+});
+
 //--- parralax images ---
 
 var image1 = document.getElementsByClassName('image1');
