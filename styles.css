@@ -126,7 +126,6 @@ figure{
 
 .lazy-background{
     position: relative;
-    background-blend-mode: multiply; 
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
