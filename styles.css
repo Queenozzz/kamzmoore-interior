@@ -987,6 +987,21 @@ footer .logo a{
 }
 
 @media(max-width: 767px) {
+    .lazy-background.img1.visible {
+        background-image: url(./assets/imgs/IMG_E4282\ small.jpg);
+    }
+    
+    .lazy-background.img2.visible {
+        background-image: url(./assets/imgs/IMG_E4318\ small.jpg);
+    }
+    
+    .lazy-background.img3.visible {
+        background-image: url(./assets/imgs/IMG_R2\ small.png);
+    }
+    
+    .lazy-background.img4.visible {
+        background-image: url(./assets/imgs/IMG_E4281\ small.jpg);
+    }
 
     .spilt {
         flex-direction: column;
@@ -1104,22 +1119,6 @@ footer .logo a{
     .lazy-background{
         object-fit: cover;
         object-position: center;
-    }
-    
-    .lazy-background.img1.visible {
-        background-image: url(./assets/imgs/IMG_E4282\ small.jpg);
-    }
-    
-    .lazy-background.img2.visible {
-        background-image: url(./assets/imgs/IMG_E4318\ small.jpg);
-    }
-    
-    .lazy-background.img3.visible {
-        background-image: url(./assets/imgs/IMG_R2\ small.png);
-    }
-    
-    .lazy-background.img4.visible {
-        background-image: url(./assets/imgs/IMG_E4281\ small.jpg);
     }
     
     .moto {
