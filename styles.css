@@ -57,6 +57,7 @@ body{
     background-color: var(--cl-bg);
     scroll-behavior: smooth;
     width: 100%;
+    
 }
 
 #check{
@@ -90,7 +91,6 @@ figure{
 .lazy-background.img4 {
     background-image: url(./asset/imgs/IMG_E4281.jpg);
 }
-
 
 .lazy-background.img1.visible{
     background-image: url(./assets/imgs/IMG_E4282.JPG);
@@ -169,6 +169,9 @@ figure{
     
 }
 
+/* .header img, .header{
+    display: none;
+} */
 
 i {
     color: var(--cl-Dlogo);
@@ -678,6 +681,11 @@ input:checked+label .desc {
     text-transform: capitalize;
 }
 
+.buttons button a,
+.button button a{
+    color: var(--cl-bg);
+}
+
 .buttons {
     padding: 50px 0;
 }
@@ -979,6 +987,10 @@ footer .logo a{
 
 @media(max-width: 767px) {
 
+    .lazy-background{
+        background-attachment: scroll;
+    }
+
     .spilt {
         flex-direction: column;
         gap: 0;
@@ -1073,41 +1085,10 @@ footer .logo a{
 }
 
 @media(max-width: 400px) {
-    
-    figure {
-        animation: none;
-        width: 100%;
-    }
-
+   
     .lazy-background{
-        width: 100%;
-        height: 100%;
-        position: relative;
-        overflow: hidden;
+        background-attachment: scroll;
     }
-
-    .lazy-background.img1 {
-        background-image: url(./asset/imgs/IMG_E4282.jpg);
-    }
-        
-    .lazy-background.img1.visible {
-        background-image: url(./assets/imgs/IMG_E4282\ small.jpg);
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .lazy-background.img2.hero,
-    .lazy-backgroundg.img3.hero,
-    .lazy-background.img4.hero, 
-    .lazy-background.img2,
-    .lazy-backgroundg.img3,
-    .lazy-background.img4 ,
-    .lazy-background.img2.visible,
-    .lazy-background.img3.visible,
-    .lazy-background.img4.visible {
-        display: none;
-    }
-    
 
     .logo {
         padding-left: 5px;
