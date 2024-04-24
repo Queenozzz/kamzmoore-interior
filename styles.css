@@ -75,19 +75,19 @@ figure{
     
 }
 .lazy-background.img1 {
-    background-image: url(./assets/imgs/YFXH6262.jpg);
+    background-image: url(./assets/imgs/FHPA2338.JPG);
 }
 
 .lazy-background.img2 {
-    background-image: url(./assets/imgs/YFXH6262.jpg);
+    background-image: url(./assets/imgs/XYJO7599.JPG);
 }
 
 .lazy-backgroundg.img3 {
-    background-image: url(./assets/imgs/YFXH6262.jpg);
+    background-image: url(./assets/imgs/RBAM4002.JPG);
 }
 
 .lazy-background.img4 {
-    background-image: url(./assets/imgs/YFXH6262.jpg);
+    background-image: url(./assets/imgs/ADBB1304.JPG);
 }
 
 .lazy-background.img1.visible{
@@ -511,36 +511,37 @@ input:checked+label .desc {
     transform: translateY(0) !important;
 }
 .card[for="c1"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/RIKE6463.JPG');
+   
 
 }
 
 .card[for="c2"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/KSIB3100.JPG');
 }
 
 .card[for="c3"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/OPJN5930.JPG');
 }
 
 .card[for="c4"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/VCDD6245.JPG');
 }
 
 .card[for="c5"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/AONH5724.JPG');
 }
 
 .card[for="c6"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/QWEF1183.JPG');
 }
 
 .card[for="c7"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/DNOZ0132.JPG');
 }
 
 .card[for="c8"] {
-    background-image: url('./assets/imgs/YFXH6262.jpg');
+    background-image: url('./assets/imgs/PLIJ2910.JPG');
 }
 
 
@@ -1194,3 +1195,6 @@ footer {
     }    
     
 }
+
+
+
